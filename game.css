@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    display:block;    
+    background-color:rgba(115, 218, 112, 0.692);   
+    height:max-content;
+    padding:0;
+    margin:0;
+    flex-direction:column;
+ }
+
+.container{
+    display:flex;
+    flex-wrap: row nowrap;
+    background-image:url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    border: 5px solid purple;    
+    margin-left: 5%;
+    margin-right:5%;    
+}
+
+.big-worm{    
+    padding:0;
+    margin:2rem;
+    margin-left:8rem;
+    height:145px;
+}
+
+.hole-row{
+    display:flex;
+    border:5px solid red;
+    padding:0;
+    margin:0;
+}
+/*
+.star-mole{
+    display:flex;
+    flex-wrap: column nowrap;  
+    justify-content:space-around; 
+
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 1rem;
+    margin:auto;   
+
+}
